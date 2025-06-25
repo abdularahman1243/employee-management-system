@@ -66,7 +66,7 @@ This project is a **Spring Boot** based web application for managing employees a
 
 ```bash
 git clone https://github.com/abdularahman1243/springboot-employee-management-system-api.git
-cd employee-management-system
+cd springboot-employee-management-system-api
 ---
 ```
 
