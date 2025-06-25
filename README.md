@@ -1,4 +1,4 @@
-# Employee Management System
+# Spring Boot Employee Management API
 
 A comprehensive employee and user management system built with modern Java technologies.
 
@@ -65,7 +65,7 @@ This project is a **Spring Boot** based web application for managing employees a
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/abdularahman1243/employee-management-system.git
+git clone https://github.com/abdularahman1243/springboot-employee-management-system-api.git
 cd employee-management-system
 ---
 ```
