@@ -67,3 +67,53 @@ This project is a **Spring Boot** based web application for managing employees a
 ```bash
 git clone https://github.com/abdularahman1243/employee-management-system.git
 cd employee-management-system
+---
+```
+
+2. Configure your database connection in src/main/resources/application.properties:
+
+spring.datasource.url=jdbc:mysql://localhost:3306/ems
+spring.datasource.username=root
+spring.datasource.password=abc@123
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+3. Build and run the application
+
+mvn clean install
+mvn spring-boot:run
+
+4. Access API endpoints via http://localhost:8080/api using tools like Postman.
+
+API Endpoints (examples)
+POST /api/auth/login - User login, returns JWT token.
+
+POST /api/auth/register - Register new users (ADMIN only).
+
+GET /api/admin/allEmployees - List all employees (ADMIN only).
+
+POST /api/admin/addEmployee - Add new employee (ADMIN only).
+
+PUT /api/admin/updateEmployee - Update employee info (ADMIN only).
+
+DELETE /api/admin/deleteEmployee/{id} - Delete employee by ID (ADMIN only).
+
+POST /api/admin/changeUserPassword - Admin changes user password.
+
+POST /api/users/changeOwnPassword - Users change their own password.
+
+GET /api/admin/getAllUsers - Get All Users.
+
+DELETE /api/admin/deleteUser/{id} - Delete Users with Id.
+
+GET /api/admin/adminDashboard - Show Dashboard Content.
+
+.....
+
+
+
+
+
+
+Note :
+Employee Management System, Spring Boot Employee Management, Spring Security, JWT Authentication, Role-Based Access Control, User Management, Employee CRUD, MySQL Database, Hibernate ORM, JPA, BCrypt Password Hashing, RESTful API, Java Backend, Secure User Login, Password Encryption, Admin Panel, User Roles, API Security, Spring Data JPA, Token-Based Authentication, Java Spring Project, Backend Development, Open Source Employee System, Employee Records Management, Secure REST API, User Registration, Password Reset, Access Control, CORS Configuration, Software Development, Full Stack Java Application
